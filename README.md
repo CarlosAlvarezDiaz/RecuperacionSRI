@@ -1,14 +1,19 @@
-# RecuperacionSRI
-1. Descarga la imagen 'ubuntu y comprueba que está en tu equipo
-   
-      $ docker pull ubuntu
+echo "# SRI" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/CarlosAlvarezDiaz/SRI.git
+git push -u origin main
 
-   Using default tag: latest
-          latest: Pulling from library/ubuntu
-          bccd10f490ab: Pull complete
-          Digest: sha256:77906da86b60585ce12215807090eb327e7386c8fafb5402369e421f44eff17e
-          Status: Downloaded newer image for ubuntu:latest
-          docker.io/library/ubuntu:latest
+1 Descarga la imagen 'httpd' y comprueba que está en tu equipo.
+   
+      $ docker pull httpd
+        Using default tag: latest
+        latest: Pulling from library/httpd
+        Digest: sha256:5123fb6e039b83a4319b668b4fe1ee04c4fbd7c4c8d1d6ef843e8a943a9aed3f
+        Status: Image is up to date for httpd:latest
+        docker.io/library/httpd:latest
   
 3. Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
 4. Crea un contenedor con el nombre 'ubu1'. ¿Como puedes acceder a él?
