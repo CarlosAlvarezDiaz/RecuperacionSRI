@@ -2,7 +2,8 @@
 1. Descarga la imagen 'ubuntu y comprueba que está en tu equipo
    
       $ docker pull ubuntu
-          Using default tag: latest
+
+   Using default tag: latest
           latest: Pulling from library/ubuntu
           bccd10f490ab: Pull complete
           Digest: sha256:77906da86b60585ce12215807090eb327e7386c8fafb5402369e421f44eff17e
